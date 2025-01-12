@@ -35,7 +35,7 @@ export function Experience() {
                     contentSelected === exp.id ? "text-vermelhoPrincipal" : "text-white"
                   } text-xl mobile:text-lg`}
                 >
-                  {exp.title[language]} {/* Título traduzido */}
+                  {exp.title[language]}
                 </AccordionTrigger>
                 <AccordionContent className="text-white text-lg text-justify mobile:text-base mobile:text-center">
                   {exp.description[language]
